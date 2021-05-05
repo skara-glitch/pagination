@@ -20,7 +20,7 @@ export default function App() {
     apiCallFunction();
   }, [pageNumber]);
 
-  const MAX_PAGE_NUMBER = 20;
+  // const MAX_PAGE_NUMBER = 20;
 
   const pageNumbersArray = new Array(20).fill(1).map((_, idx) => idx + 1);
 
